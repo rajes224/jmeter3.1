@@ -36,3 +36,5 @@ VOLUME ['/jmeter']
 WORKDIR	${JMETER_HOME}
 
 #CMD /runload.sh
+# Example run command:
+# bin/jmeter -n -t /jmeter/your-test.jmx -l /log/result_log.jtl;
